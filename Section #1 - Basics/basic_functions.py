@@ -27,7 +27,7 @@ eroded = cv.erode(dilated, (7,7), iterations=3)
 cv.imshow('Eroded', eroded)
 
 # Resize
-resized = cv.resize(img, (500,500), interpolation=cv.INTER_CUBIC)
+resized = cv.resize(img, (500,500), interpolation=cv.INTER_CUBIC) #linear cubic area
 cv.imshow('Resized', resized)
 
 # Cropping
